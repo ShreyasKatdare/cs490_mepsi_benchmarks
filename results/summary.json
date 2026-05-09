@@ -1,0 +1,118 @@
+{
+  "accuracy": {
+    "n_rows": 6,
+    "columns": [
+      "dataset",
+      "method",
+      "mean_acc",
+      "std_acc",
+      "all_accs"
+    ],
+    "mepsi_mean_across_datasets": 95.34
+  },
+  "runtime_T": {
+    "n_rows": 5,
+    "columns": [
+      "T",
+      "rep",
+      "t_gen_s",
+      "t_ted_est_s",
+      "t_prune_s",
+      "t_total_s",
+      "peak_mem_mb"
+    ]
+  },
+  "lambda": {
+    "n_rows": 18,
+    "columns": [
+      "dataset",
+      "lambda",
+      "mean_acc",
+      "std_acc",
+      "mean_structural_info",
+      "std_structural_info"
+    ]
+  },
+  "pruning_size": {
+    "n_rows": 18,
+    "columns": [
+      "dataset",
+      "k",
+      "mepsi_mean_acc",
+      "mepsi_std_acc",
+      "random_mean_acc",
+      "random_std_acc"
+    ]
+  },
+  "structural": {
+    "n_rows": 400,
+    "columns": [
+      "dataset",
+      "tree_idx",
+      "selected",
+      "nc",
+      "depth",
+      "esm"
+    ]
+  },
+  "convergence": {
+    "n_rows": 38,
+    "columns": [
+      "dataset",
+      "iteration",
+      "objective",
+      "empirical_error",
+      "structural_info"
+    ]
+  },
+  "ted": {
+    "n_rows": 2,
+    "columns": [
+      "dataset",
+      "mean_ted_full",
+      "std_ted_full",
+      "mean_ted_selected",
+      "std_ted_selected",
+      "n_pairs_sampled"
+    ]
+  },
+  "ablation": {
+    "n_rows": 6,
+    "columns": [
+      "dataset",
+      "variant",
+      "lambda",
+      "mean_test_acc",
+      "std_test_acc",
+      "mean_train_acc",
+      "mean_esm",
+      "mean_nc"
+    ]
+  },
+  "bounds": {
+    "n_rows": 8,
+    "columns": [
+      "dataset",
+      "k",
+      "empirical_error",
+      "test_error",
+      "bound",
+      "bound_slack",
+      "sum_esm",
+      "Ch",
+      "bound_term"
+    ],
+    "mean_bound_slack": 0.215
+  },
+  "jaccard": {
+    "n_rows": 6,
+    "columns": [
+      "dataset",
+      "method_a",
+      "method_b",
+      "mean_jaccard",
+      "std_jaccard"
+    ],
+    "mean_jaccard_vs_kappa": 0.0348
+  }
+}

@@ -1,0 +1,7 @@
+dataset,variant,lambda,mean_test_acc,std_test_acc,mean_train_acc,mean_esm,mean_nc
+digits,mepsi_full,0.01,95.926,0.571,100.0,190.55,190.867
+digits,mepsi_no_struct,0.0,96.019,0.797,100.0,166.8,168.367
+digits,mepsi_struct_only,10000.0,95.926,0.571,100.0,190.55,190.867
+breast-w,mepsi_full,0.005,94.762,0.891,100.0,30.4,30.567
+breast-w,mepsi_no_struct,0.0,95.714,0.583,100.0,24.133,24.583
+breast-w,mepsi_struct_only,10000.0,94.762,0.891,100.0,30.4,30.567

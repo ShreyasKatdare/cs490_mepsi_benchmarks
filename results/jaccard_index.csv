@@ -1,0 +1,7 @@
+dataset,method_a,method_b,mean_jaccard,std_jaccard
+digits,mepsi,kappa,0.0526,0.0
+digits,mepsi,random,0.0526,0.0
+digits,mepsi,mepsi_intra,0.0621,0.0134
+breast-w,mepsi,kappa,0.0171,0.0121
+breast-w,mepsi,random,0.0171,0.0121
+breast-w,mepsi,mepsi_intra,0.0531,0.0226

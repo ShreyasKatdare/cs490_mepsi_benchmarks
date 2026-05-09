@@ -1,0 +1,3 @@
+dataset,mean_ted_full,std_ted_full,mean_ted_selected,std_ted_selected,n_pairs_sampled
+digits,13.7954,10.0366,4.5,3.8622,435
+breast-w,4.1977,2.9145,1.1429,1.0817,435
